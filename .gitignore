@@ -1,0 +1,15 @@
+# Bỏ qua môi trường ảo (Rất nặng và gây lỗi trên máy khác)
+venv/
+
+# Bỏ qua các file bộ nhớ đệm của Python
+__pycache__/
+*.pyc
+
+# Bỏ qua dữ liệu hình ảnh (Tránh làm đầy bộ nhớ GitHub)
+dataset/
+raw_0_degree_images/
+input_images/
+output/
+
+# Bỏ qua file mô hình AI đã huấn luyện (File nhị phân nặng)
+models/*.keras
