@@ -10,9 +10,9 @@ class OrientationModel:
         # Ánh xạ từ index dự đoán sang góc cần xoay (để trả về 0 độ)
         self.rotation_map = {
             0: 0,
-            1: 90, 
+            1: 270, 
             2: 180,
-            3: -90
+            3: 90
         }
 
     def predict_rotation(self, image_path):

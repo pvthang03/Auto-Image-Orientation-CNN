@@ -11,7 +11,7 @@ def process_and_create_pdf(image_paths, orientations, output_pdf_path):
         img = img.convert('RGB')
         
         if angle != 0:
-            img = img.rotate(angle, expand=True) 
+            img = img.rotate(-angle, expand=True) 
             
         processed_images.append(img)
         print(f"Đã xử lý: {img_path} (Xoay {angle} độ)")

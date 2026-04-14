@@ -59,7 +59,7 @@ model.compile(optimizer='adam',
 
 # 5. Bắt đầu huấn luyện
 print("Bắt đầu huấn luyện...")
-epochs = 10 # Số vòng lặp qua toàn bộ dữ liệu (bạn có thể tăng lên 15-20 nếu chưa chính xác)
+epochs = 20 # Số vòng lặp qua toàn bộ dữ liệu (bạn có thể tăng lên 15-20 nếu chưa chính xác)
 history = model.fit(
   train_ds,
   validation_data=val_ds,
